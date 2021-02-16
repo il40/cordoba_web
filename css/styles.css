@@ -2462,7 +2462,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  margin-top: 60px;
+  margin-top: 250px;
   color: rgb(0, 0, 0);
   background-color: #688ef7b0;
   border-color: #f3f7f6cb;
@@ -10240,7 +10240,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%),
+  background: linear-gradient(to bottom, rgba(27, 27, 27, 0.3) 0%, rgba(27, 27, 27, 0.7) 75%, #131313 100%),
    url("../imagenes/portada/Cordoba7.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -10253,7 +10253,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.301));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -10261,6 +10261,11 @@ body {
 .masthead h2 {
   max-width: 20rem;
   font-size: 2.5rem;
+  color: #fff;
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.301));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
  
@@ -10410,4 +10415,21 @@ body {
 }
 .bg-card {
   background: linear-gradient(215deg, rgba(210, 222, 230, 0.911) 7%, rgba(104, 177, 219, 0.918) 33%, rgba(70, 143, 185, 0.911) 59%, rgba(31, 91, 128, 0.918) 81%, rgba(5, 0, 0, 0.918) 100%);
+}
+
+/*   ------- @MEDIA ------  */
+@media (max-width: 575.98px){
+  .a-icono {
+    padding: 0% !important;
+  }
+  .img-icono {
+    height: 80px;
+  }
+}
+
+/*  ---------@MEDIA  576 A 767 ----------*/
+@media (min-width: 576px) and (max-width: 767.98px){
+  .img-icono {
+    height: 80px;
+  }
 }
