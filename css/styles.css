@@ -10420,7 +10420,7 @@ body {
 /*   ------- @MEDIA ------  */
 @media (max-width: 575.98px){
   .masthead {
-    padding: 8rem 0;
+    padding: 7rem 0;
   }
   .a-icono {
     padding: 0% !important;
@@ -10440,5 +10440,8 @@ body {
 @media (min-width: 576px) and (max-width: 767.98px){
   .img-icono {
     height: 80px;
+  }
+  .a-icono {
+    padding: 0% !important;
   }
 }
