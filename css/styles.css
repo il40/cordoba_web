@@ -10419,11 +10419,20 @@ body {
 
 /*   ------- @MEDIA ------  */
 @media (max-width: 575.98px){
+  .masthead {
+    padding: 8rem 0;
+  }
   .a-icono {
     padding: 0% !important;
   }
   .img-icono {
-    height: 80px;
+    height: 60px;
+  }
+  .btn-primary{
+   margin-top: 50px;
+  }
+  .h1-titulo {
+    margin-bottom: 25px !important;
   }
 }
 
