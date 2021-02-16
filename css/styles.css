@@ -10,6 +10,11 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ *{
+  margin: 0%;
+  padding: 0%;
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2457,8 +2462,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
+  margin-top: 60px;
   color: rgb(0, 0, 0);
-  background-color: #f3f7f6cb;
+  background-color: #688ef7b0;
   border-color: #f3f7f6cb;
 }
 .btn-primary:hover {
@@ -10214,7 +10220,7 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
+/*
 .masthead {
   position: relative;
   width: 100%;
@@ -10222,6 +10228,20 @@ body {
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../imagenes/Cordoba.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%),
+   url("../imagenes/portada/Cordoba7.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
