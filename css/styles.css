@@ -10140,7 +10140,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #00000080;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10170,7 +10170,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.322);
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10189,7 +10189,7 @@ body {
     color: rgba(0, 0, 0, 0.75);
   }
   #mainNav.navbar-shrink {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.9);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000000;
@@ -10258,12 +10258,23 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
 }
+
+/*
 .masthead h2 {
   max-width: 20rem;
   font-size: 2.5rem;
   color: #fff;
   background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.301));
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}  */
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 2.5rem;
+  color: #fff;
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.301));
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -10392,6 +10403,11 @@ body {
 
 
 /* estilos propios  */
+
+.bg-menu {
+ border-top: 1px solid 50% #ffffff;
+
+}
 
 .img-icono {
   height: 100px;
