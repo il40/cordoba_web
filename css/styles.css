@@ -10436,8 +10436,17 @@ body {
 
 /*   ------- @MEDIA ------  */
 @media (max-width: 575.98px){
+  h4 {
+    font-size: 1.25rem;
+  }
   .masthead {
     padding: 7rem 0;
+  }
+  .masthead h1 {
+    font-size: 3rem;
+  }
+  .masthead h2 {
+    font-size: 1.5rem;
   }
   .a-icono {
     padding: 0% !important;
@@ -10449,12 +10458,25 @@ body {
    margin-top: 50px;
   }
   .h1-titulo {
-    margin-bottom: 25px !important;
+    margin-bottom: 35px !important;
+  }
+  .btn {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1rem 1rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 60%;
+    
   }
 }
 
 /*  ---------@MEDIA  576 A 767 ----------*/
 @media (min-width: 576px) and (max-width: 767.98px){
+  .masthead h1 {
+    font-size: 3rem;
+  }
+  .masthead h2 {
+    font-size: 1.5rem;
+  }
   .img-icono {
     height: 60px;
   }
