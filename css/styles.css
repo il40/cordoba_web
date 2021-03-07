@@ -10456,7 +10456,7 @@ body {
 /*  ---------@MEDIA  576 A 767 ----------*/
 @media (min-width: 576px) and (max-width: 767.98px){
   .img-icono {
-    height: 80px;
+    height: 60px;
   }
   .a-icono {
     padding: 0% !important;
