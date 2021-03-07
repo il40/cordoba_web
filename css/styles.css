@@ -10483,4 +10483,14 @@ body {
   .a-icono {
     padding: 0% !important;
   }
+  .btn-primary {
+    margin-top: 50px;
+  }
+}
+
+/*  ---------@MEDIA  768 A 991 ----------*/
+@media (min-width: 767.98px) and (max-width: 991px){
+  .btn-primary {
+    margin-top: 50px;
+  }
 }
