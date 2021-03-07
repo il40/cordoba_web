@@ -4517,7 +4517,7 @@ input[type=button].btn-block {
 }
 
 .card-deck .card {
-  margin: 50px;
+  margin: 40px;
 }
 /*  ---------@MEDIA  992 A 1199 ----------*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -4534,7 +4534,7 @@ input[type=button].btn-block {
 /*  ---------@MEDIA  576 A 767 ----------*/
 @media (min-width: 576px) and (max-width: 767.98px){
   .card-deck .card {
-    margin: 10px;
+    margin: 95px;
   }
 }
 @media (min-width: 576px) {
